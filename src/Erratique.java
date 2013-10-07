@@ -9,7 +9,7 @@ public class Erratique extends Neuneu {
 			Neuneu partenaire = this.canReproduce();
 			Nourriture miam = this.canEat(this.getLoft().getNourritures());
 			if(partenaire != null){		//Dès qu'il peut se reproduire, il le fait
-				this.seReproduire(partenaire);
+				this.seReproduire(partenaire);	//Test de changement pour GIT
 				this.setActionRealisee(true);
 				partenaire.setActionRealisee(true);
 				return true;
